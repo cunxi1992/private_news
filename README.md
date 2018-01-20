@@ -159,25 +159,27 @@ rename_files()
 ![重命名后的照片](/image/new.png)
 
 
-## 用到的库和方法
+## 用到的文件、库和方法
 
-1. os文件
+1. 若需要下载程序中用到的原始照片，请访问![我的github](https://github.com/cunxi1992/private_news),文件夹original_prank
+
+2. os文件
 
 os文件的其他方法请查看[os文档](https://docs.python.org/3.6/library/os.html)
 
-2. os.listdir()
+3. os.listdir()
 
 方法用于返回指定的文件夹包含的文件或文件夹名称的** 列表 ** 。
 
-3. translat()
+4. translat()
 
 字符串函数translat()接收2个参数，第一个参数是一个数据表，其能将一个字符集转译程另一个字符集，我们这里不需要，因此可以使用关键字None。第二个参数是一个列表，包含了我们想要从字符串中移除的所有字符，这里指的是那些数字，也就是0123456789
 
-4. os.getcwd()
+5. os.getcwd()
 
 该方法返回当前工作目录。
 
-5. os.chdir()
+6. os.chdir()
 
 该方法改变当前的工作目录
 
