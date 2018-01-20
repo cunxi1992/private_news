@@ -24,7 +24,8 @@ KEYS ARE IN THE CLOSET. BEHIND THE SHOE BOX.
 1. 打开文件夹，并获取文件的文件名称
 2. 给这些文件重命名，去除文件名称中的数字
 
-** 打开文件夹，并获取文件的文件名称
+**打开文件夹，并获取文件的文件名称**
+
 我们Google一下如何获取文件中的文件名称，发现有一个os模块的listdir()可用，
 ```
 # -*- coding:utf-8 -*-
@@ -53,6 +54,7 @@ rename_files()
 下面，我们开始做第二步，去除文件名称中的数字，给文件名称重命名。
 
 **给这些文件重命名，去除文件名称中的数字**
+
 我们查看[os文档](https://docs.python.org/3.6/library/os.html),有一个叫rename(src,dst,src_dir_fd=None, dst_dir_fd=None)函数，它可以读取文件的来源或者当前名称，并将其改为目标地址或更改为新的名称。
 
 我们要给50张照片重命名，因此这里要用到for循环:
